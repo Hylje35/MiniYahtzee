@@ -24,7 +24,7 @@ const ScoreboardScreen = () => {
   useFocusEffect(
     React.useCallback(() => {
       loadScores();  // Lataa scoreboard, kun näyttö avataan
-    }, [])
+    }, []) 
   );
 
   return (

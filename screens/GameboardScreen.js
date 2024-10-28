@@ -110,7 +110,7 @@ const GameboardScreen = ({ route }) => {
       let finalPoints = points;
       if (points >= BONUS_POINTS_LIMIT) {
         finalPoints += BONUS_POINTS;  // Lisää 50 bonuspistettä
-      }
+      }  
   
       const date = new Date().toLocaleDateString();
       const newScore = { playerName, points: finalPoints, date };

@@ -8,7 +8,7 @@ import HomeScreen from '../screens/HomeScreen';
 import GameboardScreen from '../screens/GameboardScreen';
 import ScoreboardScreen from '../screens/ScoreboardScreen';
 
-const Tab = createBottomTabNavigator();
+const Tab = createBottomTabNavigator(); 
 
 const Tabs = () => {
   return (

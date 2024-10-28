@@ -6,7 +6,7 @@ import GameboardScreen from './screens/GameboardScreen';
 import ScoreboardScreen from './screens/ScoreboardScreen';
 import { MaterialCommunityIcons } from '@expo/vector-icons';  // Tuo Expo Vector Icons
 
-const Tab = createBottomTabNavigator();
+const Tab = createBottomTabNavigator(); 
 
 export default function App() {
   return (
